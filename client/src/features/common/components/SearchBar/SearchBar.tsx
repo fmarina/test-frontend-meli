@@ -4,7 +4,7 @@ import './SearchBar.scss'
 import type { SearchBarProps } from './types'
 
 const SearchBar = ({ searchQuery, handleOnChange, handleOnSubmit }: SearchBarProps) => (
-  <form className='searchbar' onSubmit={handleOnSubmit} role='searchbox'>
+  <form className='searchbar' onSubmit={handleOnSubmit} role='search'>
     <label className='searchbar__label' htmlFor='search'>
       <input
         className='searchbar__input'
