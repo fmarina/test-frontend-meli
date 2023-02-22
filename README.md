@@ -12,8 +12,7 @@
 ## Install dependencies
 ```
 npm install
-cd client![postman-icon](https://user-images.githubusercontent.com/22374792/220681204-13a30ebb-4803-4d06-ad81-32d41c817aca.svg)
-
+cd client
 npm install
 ```
 
@@ -32,8 +31,7 @@ API_URL=https://api.mercadolibre.com
 
 Client
 ```
-REACT_APP_API_URL=http://localhost:3003![favicon (1)](https://user-images.githubusercontent.com/22374792/220677243-c866948d-0af4-4ae2-9696-3b9e60459cff.png)
-
+REACT_APP_API_URL=http://localhost:3003
 ```
 
 ## API DOCUMENTATION
