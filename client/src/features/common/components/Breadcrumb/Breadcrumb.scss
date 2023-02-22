@@ -1,0 +1,33 @@
+@import 'styles/variables';
+
+.breadcrumb {
+  width: 100%;
+  max-width: $screen-xl;
+  display: flex;
+  flex-wrap: wrap;
+  margin: $margin-base auto;
+  padding: 0 $padding-base;
+  color: $primary-light-color;
+  list-style: none;
+
+  @media (min-width: $screen-xl) {
+    padding: 0;
+  }
+
+  &__item {
+    position: relative;
+    font-size: $fontsize-sm;
+
+    &:last-child {
+      font-weight: 700;
+      &::after {
+        content: '';
+      }
+    }
+
+    &::after {
+      content: '>';
+      padding: 0.5rem;
+    }
+  }
+}
