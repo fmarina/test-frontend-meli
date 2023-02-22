@@ -22,7 +22,7 @@ Run the next command at the root of the project
 npm run dev
 ```
 
-### Make sure to add the correct environment variables
+#### Make sure to add the correct environment variables
 Server
 ```
 PORT=3003
