@@ -24,8 +24,12 @@ npm run dev
 
 ### Make sure to add the correct environment variables
 Server
-- PORT=3003
-- API_URL=https://api.mercadolibre.com
+```
+PORT=3003
+API_URL=https://api.mercadolibre.com
+```
 
 Client
-- REACT_APP_API_URL=http://localhost:3003
+```
+REACT_APP_API_URL=http://localhost:3003
+```
