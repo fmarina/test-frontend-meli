@@ -1,0 +1,39 @@
+@import 'styles/variables';
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 $padding-base;
+  background-color: $primary-color;
+}
+
+main {
+  width: 100%;
+  max-width: $screen-xl;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 $padding-base;
+}
+
+@media (min-width: $screen-xl) {
+  header,
+  main {
+    padding: 0;
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: $padding-base;
+}
+
+.error-message {
+  margin: $margin-base;
+  padding: $padding-base;
+  font-size: $fontsize-lg;
+  text-align: center;
+}
