@@ -1,0 +1,47 @@
+@import 'styles/variables';
+
+.productitem {
+  display: flex;
+  align-items: center;
+  color: $primary-dark-color;
+
+  &__picture {
+    margin: $margin-base;
+    width: 100%;
+    max-width: $img-width-md;
+    border-radius: $border-radius;
+  }
+
+  &__info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+    &__detail {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: $padding-lg;
+
+      &__price {
+        display: flex;
+        align-items: center;
+        font-size: $fontsize-lg;
+        & > img {
+          width: 1.25rem;
+          height: 1.25rem;
+          margin: 0 0.5rem;
+        }
+      }
+
+      &__location {
+        margin-left: 0.5rem;
+        font-size: $fontsize-xs;
+      }
+    }
+
+    &__title {
+      font-size: $fontsize-md;
+    }
+  }
+}

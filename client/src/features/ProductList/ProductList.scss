@@ -1,0 +1,22 @@
+@import 'styles/variables';
+
+.productlist {
+  margin-top: 0;
+  padding: 0;
+  background-color: $white-color;
+  border-radius: $border-radius;
+  list-style: none;
+
+  &__item {
+    margin: $margin-base 0;
+    border-bottom: 0.063rem solid $background-color;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    & > a {
+      text-decoration: none;
+    }
+  }
+}
