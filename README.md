@@ -15,3 +15,11 @@ npm install
 cd client
 npm install
 ```
+
+## Running server and client
+Run the next command at the root of the project
+```
+npm run dev
+```
+
+
