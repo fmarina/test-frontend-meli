@@ -1,0 +1,12 @@
+@import 'styles/variables';
+
+.navbar {
+  width: 100%;
+  max-width: $screen-xl;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  gap: $padding-lg;
+}
